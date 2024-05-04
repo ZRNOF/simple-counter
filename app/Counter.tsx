@@ -28,12 +28,12 @@ const Counter = () => {
 			</motion.div>
 			<Flex gap="5">
 				<motion.div {...transition(0.05)}>
-					<Button size="3" onClick={inc}>
+					<Button variant="soft" size="3" onClick={inc}>
 						Increase
 					</Button>
 				</motion.div>
 				<motion.div {...transition(0.1)}>
-					<Button size="3" onClick={dec}>
+					<Button variant="soft" size="3" onClick={dec}>
 						Decrease
 					</Button>
 				</motion.div>
